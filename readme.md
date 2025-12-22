@@ -7,6 +7,9 @@ This project is focused on learning low-level image rendering and SDL basics.
 
 ---
 
+### [Tutorial](https://youtu.be/sItRLFjbqvo?si=jeMoBfuUR5_nWUU-) : Video Tutorial Available
+
+
 ## Supported Format
 
 - **PPM (P6 – binary)**
@@ -19,9 +22,8 @@ This project is focused on learning low-level image rendering and SDL basics.
 
 1. Reads and ignores the PPM magic number (`P6`)
 2. Reads image `width` and `height`
-3. Skips the max color value line (`255`)
-4. Reads raw RGB bytes (`R G B` per pixel)
-5. Draws each pixel directly onto an SDL window surface
+3. Reads raw RGB bytes (`R G B` per pixel)
+4. Draws each pixel directly onto an SDL window surface
 
 ---
 
@@ -41,11 +43,8 @@ gcc image.c -o image `sdl2-config --cflags --libs`
 
 ## Notes
 
-The SDL window size matches the PPM image dimensions.
+1. The SDL window size matches the PPM image dimensions.
 Rendering is done on the CPU, one pixel at a time
-
-Pixels are drawn using SDL_FillRect with a 1×1 SDL_Rect
-
-Correct (x, y) mapping is required to avoid image rotation
-
-An event loop is required to keep the window responsive
+2. Pixels are drawn using SDL_FillRect with a 1×1 SDL_Rect
+3. Correct (x, y) mapping is required to avoid image rotation
+4. An event loop is required to keep the window responsive
