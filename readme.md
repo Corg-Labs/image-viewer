@@ -7,7 +7,7 @@ This project is focused on learning low-level image rendering and SDL basics.
 
 ---
 
-### [Tutorial](https://youtu.be/sItRLFjbqvo?si=jeMoBfuUR5_nWUU-) : Video Tutorial Available
+### [Tutorial](https://youtu.be/sItRLFjbqvo?si=jeMoBfuUR5_nWUU-) : Video Tutorial Available(by Daniel Hirsch)
 
 
 ## Supported Format
