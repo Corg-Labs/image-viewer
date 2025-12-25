@@ -1,4 +1,4 @@
-# Image Viewer in Pure C
+# Image Viewer in C
 
 A minimal **PPM (P6) image viewer** written in **C using SDL2**.  
 The program reads a PPM image from **stdin** and renders it **pixel-by-pixel** using an `SDL_Surface`.
